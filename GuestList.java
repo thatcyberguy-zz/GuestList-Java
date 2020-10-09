@@ -1,14 +1,12 @@
 /*
 * File: GuestList.java
-* Author: David Pierre
-* Date: February 10, 2020
+* Author: David P
 * Purpose: This program prints a guest list and add a new guest.
 */
-
 import java.util.Scanner;
 import java.util.ArrayList; //ArrayList manipulates size and adds a new user
 
-
+//GuesList class
 public class GuestList {
 
 	public static void main(String[] args) {
@@ -19,7 +17,7 @@ public class GuestList {
 		Scanner scan = new Scanner(System.in);
 			
 		// Arrays list that will hold my guest. 
-    // Notice I left () empty after the ArrayList so my array can be unlimited
+    		// Notice I left () empty after the ArrayList so my array can be unlimited
 		ArrayList<String> guestList = new ArrayList<>(); 
 		
 		//Default users
